@@ -10,6 +10,10 @@
           <option name="url" value="http://120.25.125.140:10080/mikexfreeze/taoke-back.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://github.com" />
+          <option name="userName" value="mikexfreeze" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="F:\" />
