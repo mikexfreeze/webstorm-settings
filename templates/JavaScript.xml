@@ -6,4 +6,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="arrb" value="$FUNNAME$ = ($VAR$) =&gt; {&#10;  $END$&#10;}" description="arrow function bind this" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
