@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="searchMenu.js" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -13,5 +14,7 @@
     <mask>*.css</mask>
     <mask>*.less</mask>
     <mask>*.js</mask>
+    <mask>SearchMenu.js</mask>
+    <mask>searchMenu.js</mask>
   </component>
 </application>
