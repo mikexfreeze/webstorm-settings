@@ -12,11 +12,11 @@
     <mask>*.mxml</mask>
     <mask>*.html</mask>
     <mask>*.css</mask>
-    <mask>*.less</mask>
     <mask>SearchMenu.js</mask>
     <mask>searchMenu.js</mask>
     <mask>*Detail.js</mask>
     <mask>*.styl</mask>
+    <mask>*.less</mask>
     <mask>*.js</mask>
   </component>
 </application>
