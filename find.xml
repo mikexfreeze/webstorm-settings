@@ -17,7 +17,7 @@
     <mask>*.styl</mask>
     <mask>*.less</mask>
     <mask>*.js</mask>
-    <mask>*.scss</mask>
     <mask>*.jade</mask>
+    <mask>*.scss</mask>
   </component>
 </application>
