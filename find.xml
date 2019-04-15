@@ -16,8 +16,8 @@
     <mask>*Detail.js</mask>
     <mask>*.styl</mask>
     <mask>*.less</mask>
-    <mask>*.jade</mask>
     <mask>*.scss</mask>
     <mask>*.js</mask>
+    <mask>*.jade</mask>
   </component>
 </application>
