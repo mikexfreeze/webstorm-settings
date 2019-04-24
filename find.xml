@@ -19,6 +19,7 @@
     <mask>*.json</mask>
     <mask>*.scss</mask>
     <mask>*.jade</mask>
+    <mask>list*.js</mask>
     <mask>*.js</mask>
   </component>
 </application>
