@@ -14,8 +14,12 @@
           <option name="url" value="http://github.com" />
           <option name="userName" value="mikexfreeze" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:mikexfreeze/blog-srouce.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="F:\" />
+    <option name="cloneParentDir" value="F:\my-projects" />
   </component>
 </application>
