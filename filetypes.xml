@@ -5,6 +5,7 @@
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="CNAME" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
+      <mapping ext="out" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
