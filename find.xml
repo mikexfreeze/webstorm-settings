@@ -21,8 +21,8 @@
     <mask>*.html</mask>
     <mask>*.less</mask>
     <mask>*.jsON</mask>
-    <mask>*.json</mask>
     <mask>*.js</mask>
     <mask>*.jade</mask>
+    <mask>*.json</mask>
   </component>
 </application>
