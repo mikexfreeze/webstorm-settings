@@ -3,7 +3,6 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.js" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -23,7 +22,7 @@
     <mask>*.less</mask>
     <mask>*.jsON</mask>
     <mask>*.jade</mask>
-    <mask>*.json</mask>
     <mask>*.js</mask>
+    <mask>*.json</mask>
   </component>
 </application>
