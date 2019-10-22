@@ -1,0 +1,107 @@
+<templateSet group="React">
+  <template name="fcc" value="// @flow&#10;import * as React from 'react';&#10;type Props = {&#10; $END$&#10;};&#10;type State = {&#10; $1$&#10;};&#10;export class $TM_FILENAME_BASE$ extends React.Component&lt;Props, State&gt;{&#10; render() {&#10;  return (&#10;   &lt;div&gt;&#10;    &#10;   &lt;/div&gt;&#10;  );&#10; };&#10;};" description="Creates a React component class with FlowTypes" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="fsc" value="// @flow &#10;import * as React from 'react';&#10;type Props = {&#10; $END$&#10;};&#10;export const $TM_FILENAME_BASE$ = (props: Props) =&gt; {&#10; return (&#10;  &lt;div&gt;&#10;   &#10;  &lt;/div&gt;&#10; );&#10;};" description="Creates a stateless React component with FlowTypes and ES6 module system" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="fsf" value="// @flow&#10;import * as React from 'react';&#10;type Props = {&#10; $END$&#10;};&#10;export function $TM_FILENAME_BASE$(props: Props) {&#10; return (&#10;  &lt;div&gt;&#10;   &#10;  &lt;/div&gt;&#10; );&#10;};" description="Creates a stateless React component as a named function with FlowTypes" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="gdsfp" value="static getDerivedStateFromProps(nextProps, prevState) {&#10; $END$&#10;}&#10;" description="Invoked after a component is instantiated as well as when it receives new props." toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="gsbu" value="getSnapshotBeforeUpdate(prevProps, prevState) {&#10; $END$&#10;}&#10;" description="Invoked right before the most recently rendered output is committed to e.g. the DOM. It enables your component to capture current values" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptb" value="PropTypes.bool," description="Bool prop type" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptbr" value="PropTypes.bool.isRequired," description="Bool prop type required" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptel" value="PropTypes.element," description="React element prop type" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptelr" value="PropTypes.element.isRequired," description="React element prop type required" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="pte" value="PropTypes.oneOf(['$END$'])," description="Prop type limited to specific values by treating it as an enum" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="pter" value="PropTypes.oneOf(['$END$']).isRequired," description="Prop type limited to specific values by treating it as an enum required" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptf" value="PropTypes.func," description="Func prop type" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptfr" value="PropTypes.func.isRequired," description="Func prop type required" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="pti" value="PropTypes.instanceOf($END$)," description="Is an instance of a class prop type" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptir" value="PropTypes.instanceOf($END$).isRequired," description="Is an instance of a class prop type required" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptnd" value="PropTypes.node," description="Anything that can be rendered: numbers, strings, elements or an array" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptndr" value="PropTypes.node.isRequired," description="Anything that can be rendered: numbers, strings, elements or an array required" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptn" value="PropTypes.number," description="Number prop type" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptnr" value="PropTypes.number.isRequired," description="Number prop type required" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="pto" value="PropTypes.object," description="Object prop type" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptoo" value="PropTypes.objectOf($END$)," description="An object with property values of a certain type" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptoor" value="PropTypes.objectOf($END$).isRequired," description="An object with property values of a certain type required" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptoos" value="PropTypes.objectOf(PropTypes.shape($END$))," description="An object whose keys are known ahead of time" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptoosr" value="PropTypes.objectOf(PropTypes.shape($END$)).isRequired," description="An object whose keys are known ahead of time required" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptor" value="PropTypes.object.isRequired," description="Object prop type required" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptet" value="PropTypes.oneOfType([&#10; $END$&#10;])," description="An object that could be one of many types" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptetr" value="PropTypes.oneOfType([&#10; $END$&#10;]).isRequired," description="An object that could be one of many types required" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptsh" value="PropTypes.shape({&#10; $END$&#10;})," description="An object taking on a particular shape" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptshr" value="PropTypes.shape({&#10; $END$&#10;}).isRequired," description="An object taking on a particular shape required" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="pts" value="PropTypes.string," description="String prop type" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="ptsr" value="PropTypes.string.isRequired," description="String prop type required" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="rcc" value="import React, { Component } from 'react';&#10;&#10;export default class $TM_FILENAME_BASE$ extends Component {&#10; render() {&#10;  return (&#10;   &lt;div&gt;&#10;    $END$&#10;   &lt;/div&gt;&#10;  );&#10; }&#10;}" description="Creates a React component class with ES6 module system" toReformat="true" toShortenFQNames="true">
+    <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="rccp" value="import React, { Component } from 'react';&#10;import PropTypes from 'prop-types';&#10;&#10;class $TM_FILENAME_BASE$ extends Component {&#10; render() {&#10;  return (&#10;   &lt;div&gt;&#10;    $END$&#10;   &lt;/div&gt;&#10;  );&#10; }&#10;}&#10;&#10;$TM_FILENAME_BASE$.propTypes = {&#10;&#10;};&#10;&#10;export default $TM_FILENAME_BASE$;" description="Creates a React component class with PropTypes and ES6 module system" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()));" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
